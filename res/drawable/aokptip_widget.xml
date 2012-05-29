@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 The Android Open Source Project
+<!-- Copyright (C) 2008 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,14 +14,10 @@
      limitations under the License.
 -->
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/widget"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="1dip"
-    >
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/aokptip_widget_pressed" />
+    <item android:state_focused="true" android:state_window_focused="true" android:drawable="@drawable/aokptip_widget_focused" />
+    <item android:state_focused="true" android:state_window_focused="false" android:drawable="@drawable/aokptip_widget_normal" />
+    <item android:drawable="@drawable/aokptip_widget_normal" />
+</selector>
 
-    <include layout="@layout/horny" />
-    <include layout="@layout/box" />
-</RelativeLayout>

@@ -36,6 +36,10 @@
         <item>See all your apps.\n
         Touch the Launcher icon. @drawable/all_apps</item>
 
+	<!-- Tip: Bitches love Unicorns. -->
+	<item>Be one with AOKP.\n
+	Check out all the custom wallpapers with a long press of the home screen</item>
+
         <!-- Tip: Longpress in Launcher (all apps) to drag apps to the home screen. -->
         <item>Drag apps to your Home screen.\n
         Touch &amp; hold an app in the Launcher until it vibrates.</item>
@@ -53,38 +57,65 @@
         <item>Multiple Home screens.\n
         Swipe left or right to switch. Drag items to other screens.</item>
 
+	<!-- Tip: ROM Control is cool. -->
+	<item>Make AOKP perfect for you.\n
+	Customize &amp; tweak the look and feel of your device with ROM Control (found in Settings).</item>
+
+	<!-- Tip: Different styles for toggles. -->
+	<item>ICS or Classic toggles.\n
+	Switch between the classic button or ICS style slide toggles in ROM Control -> Toggles -> Toggle Layout</item>
+
+	<!-- Tip: Remove the Brightness slider from the notification drawer. -->
+	<item>Fan of autobrightness?\n
+	You can remove the brightness slider from your notification draw in ROM Control ->  Toggles -> Brightness location</item>
+
+	<!-- Tip: Statusbar brightness control. -->
+	<item>Statusbar brightness control.\n
+	Slide your finger across the status bar to control the screens brightness level. (Note: only works when autonatic brightness is disabled.)</item>
+
+	<!-- Tip: Remove IME switcher. -->
+	<item>Minimalist?\n
+	Remove the keyboard chooser (IME switcher) from your status bar via ROM Control -> General UI -> Show IME Switcher.</item>
+
+	<!-- Tip: Remove camera shutter sound. -->
+	<item>Shutter up?\n
+	Toggle the camera shutter via the checkbox in Settings -> Sound -> Camera sounds. (Note: check your local laws for compliance.)</item>
+
+	<!-- Tip: Default behavior for settings button in Notification drawer. -->
+	<item>Don\'t like the toggle toggle?\n
+	Restore the default behavior of the Notification drawer Settings button via ROM Control -> Statusbar -> Use default settings behavior.</item>
+
+	<!-- Tip: Reverse the Notification drawer layout. -->
+	<item>Tiny hands/big phone?\n
+	Move the Notification drawer toggles to the bottom of screen by selecting "Reversed" in ROM Control -> Statusbar -> Notification drawer layout.</item>
+
+	<!-- Tip: Remove the Navigation bar while playing games. Credit to orfgator. -->
+	<item>Use your entire screen.\n
+	Get the full screen experience by turning off the Navigation bar and using Navigation controls in the power menu via ROM Control -> Power menu options -> Show navigation toggles. Then long press and toggle via the power icon.</item>
+
         <!-- Tip: Reminder about how to delete widgets, reinforcing that this
              technique can be used to remove the tips widget iteself. -->
         <item>Done with this widget?\n
         Touch &amp; hold it and when it vibrates, drag it to the Trash icon.</item>
     </string-array>
     
-    <!-- dial *#*#TIPS#*#* -->
+    <!-- dial *#*#UNICORN#*#* -->
     <!-- do not translate -->
+    <!-- Source credit http://www.thejunglestore.com/Unicorns -->
     <string-array name="tips2">
-        <item>Home is a garden
-        \nTouch &amp; hold an empty spot
-        \nTo grow new icons</item>
-        <item>Phone isn’t waterproof
-        \nDo not immerse in water
-        \nor other fluids</item>
-        <item>Want some more home screens?
-        \nSwipe left and right to find them
-        \n(No theft required)</item>
-        <item>Little Home screen dots
-        \nWhat could they possibly do?
-        \nTouch &amp; hold to learn.</item>
-        <item>Status bar icons
-        \nTo discover their secrets
-        \nPull the windowshade</item>
-        <item>There is a trick to
-        \nDragging items twixt Home screens
-        \nPause at the edges</item>
-        <item>Touch Market for apps
-        \nLike a box of chocolates
-        \nEach one a surprise</item>
-        <item>Oh, and by the way:
-        \nCeci n’est pas une trombone
-        \nI am an Android</item>
+	<item>Does God hate Unicorns?\n
+	Legend states that Noah excluded unicorns from the ark, thereby making them extinct today.</item>
+	
+	<item>Maybe they\'re just delicious.\n
+	There are seven famous Gothic tapestries that depict the hunt and capture of a unicorn.</item>
+
+	<item>A world traveler.\n
+	The Chinese unicorn is called Kilin and takes on many different forms.</item>
+
+	<item>Confusius knows what\'s up.\n
+	A unicorn appeared to Confucius\'s mother, heralding the great Chinese philosopher\'s birth. It later appeared to Confucius, foretelling his death.</item>
+
+	<item>World conquerors love them!\n
+	Alexander the Great boasted he had ridden a unicorn into battle.</item>
     </string-array>
 </resources>
